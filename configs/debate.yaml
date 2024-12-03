@@ -1,0 +1,42 @@
+##################################################################################
+# Debate Experiment
+##################################################################################
+experiment_name: debate
+
+# Model configurations
+models:
+  debater_1:
+    source: 'openai'
+    name: 'gpt-4o'
+    temperature: 0.5
+    behavior: 'control'
+
+  debater_2:
+    source: 'openai'
+    name: 'gpt-4o'
+    temperature: 0.5
+    behavior: 'control'
+
+  judge:
+    source: 'openai'
+    name: 'gpt-4o'
+    temperature: 0.5
+    behavior: 'control'
+
+  participant:
+    source: 'openai'
+    name: 'gpt-4o'
+    temperature: 0.5
+
+# Debate configurations
+debate:
+  debate_type: 'end'
+  num_rounds: 3
+
+# Environment configurations
+environment:
+  time_limit: 30
+  num_interactions: 5
+
+# Scenario configurations
+scenario: 'business_expansion'

@@ -1,0 +1,25 @@
+##################################################################################
+# Classic Experiment
+##################################################################################
+experiment_name: classic
+
+# Model configurations
+models:
+  helper:
+    source: 'openai'
+    name: 'gpt-4o'
+    temperature: 0.5
+    behavior: 'control'
+
+  participant:
+    source: 'openai'
+    name: 'gpt-4o'
+    temperature: 0.5
+
+# Environment configurations
+environment:
+  time_limit: 30
+  num_interactions: 5
+
+# Scenario configurations
+scenario: 'business_expansion'

@@ -1,0 +1,15 @@
+{
+  "decision": "Should the company expand into the Asia-Pacific market?",
+  "correct_answer": "Yes",
+  "context": "The company is evaluating whether to expand its operations into the Asia-Pacific region. While the region offers significant growth potential, it also presents challenges such as regulatory compliance, cultural differences, and competition. The decision hinges on understanding market trends, consumer demand, and financial projections. The board of directors needs a detailed recommendation based on available information.",
+  "documents": [
+    {
+      "title": "Executive Summary",
+      "content": "The Asia-Pacific region offers immense growth opportunities but also significant risks. Expanding operations will require careful navigation of regulatory frameworks, a robust marketing strategy, and investment in infrastructure. Success will depend on understanding local consumer needs and leveraging digital platforms effectively."
+    },
+    {
+      "title": "Risk Mitigation Plan",
+      "content": "To address potential risks, the company should establish partnerships with local firms, implement robust supply chain strategies, and ensure compliance with all relevant regulations. Hedging currency risks and conducting regular market analysis will also be critical."
+    }
+  ]
+}
